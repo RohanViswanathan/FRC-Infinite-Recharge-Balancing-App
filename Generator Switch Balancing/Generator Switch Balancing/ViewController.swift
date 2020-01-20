@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MultiSlider
 
 class ViewController: UIViewController {
 
