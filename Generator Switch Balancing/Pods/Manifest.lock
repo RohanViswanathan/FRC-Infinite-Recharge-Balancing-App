@@ -1,0 +1,24 @@
+PODS:
+  - AvailableHapticFeedback (1.0.0)
+  - MiniLayout (1.4.0)
+  - MultiSlider (1.9.0):
+    - AvailableHapticFeedback
+    - MiniLayout
+
+DEPENDENCIES:
+  - MultiSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AvailableHapticFeedback
+    - MiniLayout
+    - MultiSlider
+
+SPEC CHECKSUMS:
+  AvailableHapticFeedback: dbd483684e693281b85e671d95ac3593dfbad34f
+  MiniLayout: e35331ce9ab50a4111c3f91deca158834f86d9e7
+  MultiSlider: e3b9a9318eaae0e5a4542c544300d3397eecd6b2
+
+PODFILE CHECKSUM: ee8c0da9e714cc577309cc648d553a129ba38d73
+
+COCOAPODS: 1.7.5

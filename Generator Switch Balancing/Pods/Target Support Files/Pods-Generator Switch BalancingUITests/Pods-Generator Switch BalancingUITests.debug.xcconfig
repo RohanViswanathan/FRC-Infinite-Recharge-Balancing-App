@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AvailableHapticFeedback" "${PODS_CONFIGURATION_BUILD_DIR}/MiniLayout" "${PODS_CONFIGURATION_BUILD_DIR}/MultiSlider"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AvailableHapticFeedback/AvailableHapticFeedback.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MiniLayout/MiniLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MultiSlider/MultiSlider.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AvailableHapticFeedback" -framework "MiniLayout" -framework "MultiSlider"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

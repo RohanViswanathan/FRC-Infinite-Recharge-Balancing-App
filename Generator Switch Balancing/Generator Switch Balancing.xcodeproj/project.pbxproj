@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80EB8E4283BA0A5859C5A4D8 /* Pods_Generator_Switch_BalancingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488B8C3D863F2AC6A96EEF7E /* Pods_Generator_Switch_BalancingTests.framework */; };
+		9B158E9932A1FFEF0CB6C942 /* Pods_Generator_Switch_BalancingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EF756540DCA21F65AAA535 /* Pods_Generator_Switch_BalancingUITests.framework */; };
+		D0BBC2EA49FF5534993D0EE6 /* Pods_Generator_Switch_Balancing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B738314307F2C87B84B5D4D3 /* Pods_Generator_Switch_Balancing.framework */; };
 		D12E75E123D5479E00F9194B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E75E023D5479E00F9194B /* AppDelegate.swift */; };
 		D12E75E323D5479E00F9194B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E75E223D5479E00F9194B /* ViewController.swift */; };
 		D12E75E623D5479E00F9194B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12E75E423D5479E00F9194B /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09919EBE9E89EDED15A0D760 /* Pods-Generator Switch BalancingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Switch BalancingTests.debug.xcconfig"; path = "Target Support Files/Pods-Generator Switch BalancingTests/Pods-Generator Switch BalancingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3DC75E33F60EC468E8F782 /* Pods-Generator Switch Balancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Switch Balancing.release.xcconfig"; path = "Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing.release.xcconfig"; sourceTree = "<group>"; };
+		311848FE10FD1BB4DBDA0E7C /* Pods-Generator Switch BalancingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Switch BalancingUITests.release.xcconfig"; path = "Target Support Files/Pods-Generator Switch BalancingUITests/Pods-Generator Switch BalancingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		488B8C3D863F2AC6A96EEF7E /* Pods_Generator_Switch_BalancingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generator_Switch_BalancingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5093F410CF7FE9746F6C53B2 /* Pods-Generator Switch Balancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Switch Balancing.debug.xcconfig"; path = "Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF29D01B23D5EA40308215C /* Pods-Generator Switch BalancingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Switch BalancingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Generator Switch BalancingUITests/Pods-Generator Switch BalancingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5EF756540DCA21F65AAA535 /* Pods_Generator_Switch_BalancingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generator_Switch_BalancingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B738314307F2C87B84B5D4D3 /* Pods_Generator_Switch_Balancing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generator_Switch_Balancing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCE2B21C18C84AAFF188F5E /* Pods-Generator Switch BalancingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Switch BalancingTests.release.xcconfig"; path = "Target Support Files/Pods-Generator Switch BalancingTests/Pods-Generator Switch BalancingTests.release.xcconfig"; sourceTree = "<group>"; };
 		D12E75DD23D5479E00F9194B /* Generator Switch Balancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generator Switch Balancing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12E75E023D5479E00F9194B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D12E75E223D5479E00F9194B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BBC2EA49FF5534993D0EE6 /* Pods_Generator_Switch_Balancing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EB8E4283BA0A5859C5A4D8 /* Pods_Generator_Switch_BalancingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B158E9932A1FFEF0CB6C942 /* Pods_Generator_Switch_BalancingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75DD0A5461B5E43269D74A46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B738314307F2C87B84B5D4D3 /* Pods_Generator_Switch_Balancing.framework */,
+				488B8C3D863F2AC6A96EEF7E /* Pods_Generator_Switch_BalancingTests.framework */,
+				B5EF756540DCA21F65AAA535 /* Pods_Generator_Switch_BalancingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFFE7B08BD98FC839C192211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5093F410CF7FE9746F6C53B2 /* Pods-Generator Switch Balancing.debug.xcconfig */,
+				2B3DC75E33F60EC468E8F782 /* Pods-Generator Switch Balancing.release.xcconfig */,
+				09919EBE9E89EDED15A0D760 /* Pods-Generator Switch BalancingTests.debug.xcconfig */,
+				BFCE2B21C18C84AAFF188F5E /* Pods-Generator Switch BalancingTests.release.xcconfig */,
+				5AF29D01B23D5EA40308215C /* Pods-Generator Switch BalancingUITests.debug.xcconfig */,
+				311848FE10FD1BB4DBDA0E7C /* Pods-Generator Switch BalancingUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D12E75D423D5479E00F9194B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				D12E75F723D5479F00F9194B /* Generator Switch BalancingTests */,
 				D12E760223D5479F00F9194B /* Generator Switch BalancingUITests */,
 				D12E75DE23D5479E00F9194B /* Products */,
+				BFFE7B08BD98FC839C192211 /* Pods */,
+				75DD0A5461B5E43269D74A46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12E760823D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch Balancing" */;
 			buildPhases = (
+				86EFD86DA19F24D1EBC6B7A6 /* [CP] Check Pods Manifest.lock */,
 				D12E75D923D5479E00F9194B /* Sources */,
 				D12E75DA23D5479E00F9194B /* Frameworks */,
 				D12E75DB23D5479E00F9194B /* Resources */,
+				970ED67A50700E34065F99CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12E760B23D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch BalancingTests" */;
 			buildPhases = (
+				1957DCB118FBF2818F2BEFD9 /* [CP] Check Pods Manifest.lock */,
 				D12E75F023D5479F00F9194B /* Sources */,
 				D12E75F123D5479F00F9194B /* Frameworks */,
 				D12E75F223D5479F00F9194B /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12E760E23D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch BalancingUITests" */;
 			buildPhases = (
+				DA3822AB5867B02805EF7007 /* [CP] Check Pods Manifest.lock */,
 				D12E75FB23D5479F00F9194B /* Sources */,
 				D12E75FC23D5479F00F9194B /* Frameworks */,
 				D12E75FD23D5479F00F9194B /* Resources */,
@@ -253,6 +297,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1957DCB118FBF2818F2BEFD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Generator Switch BalancingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EFD86DA19F24D1EBC6B7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Generator Switch Balancing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970ED67A50700E34065F99CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3822AB5867B02805EF7007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Generator Switch BalancingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D12E75D923D5479E00F9194B /* Sources */ = {
@@ -434,6 +564,7 @@
 		};
 		D12E760923D5479F00F9194B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5093F410CF7FE9746F6C53B2 /* Pods-Generator Switch Balancing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +583,7 @@
 		};
 		D12E760A23D5479F00F9194B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3DC75E33F60EC468E8F782 /* Pods-Generator Switch Balancing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +602,7 @@
 		};
 		D12E760C23D5479F00F9194B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09919EBE9E89EDED15A0D760 /* Pods-Generator Switch BalancingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +624,7 @@
 		};
 		D12E760D23D5479F00F9194B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCE2B21C18C84AAFF188F5E /* Pods-Generator Switch BalancingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +646,7 @@
 		};
 		D12E760F23D5479F00F9194B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF29D01B23D5EA40308215C /* Pods-Generator Switch BalancingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +667,7 @@
 		};
 		D12E761023D5479F00F9194B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311848FE10FD1BB4DBDA0E7C /* Pods-Generator Switch BalancingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

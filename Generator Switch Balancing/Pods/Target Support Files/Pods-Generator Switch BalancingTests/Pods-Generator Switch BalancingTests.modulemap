@@ -1,0 +1,6 @@
+framework module Pods_Generator_Switch_BalancingTests {
+  umbrella header "Pods-Generator Switch BalancingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

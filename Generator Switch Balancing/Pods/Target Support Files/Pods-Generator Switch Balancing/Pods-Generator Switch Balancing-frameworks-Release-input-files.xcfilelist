@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AvailableHapticFeedback/AvailableHapticFeedback.framework
+${BUILT_PRODUCTS_DIR}/MiniLayout/MiniLayout.framework
+${BUILT_PRODUCTS_DIR}/MultiSlider/MultiSlider.framework

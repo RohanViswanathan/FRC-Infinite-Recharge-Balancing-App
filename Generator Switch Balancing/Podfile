@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Generator Switch Balancing' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Generator Switch Balancing
+
+  pod 'MultiSlider'
+
+  target 'Generator Switch BalancingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Generator Switch BalancingUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

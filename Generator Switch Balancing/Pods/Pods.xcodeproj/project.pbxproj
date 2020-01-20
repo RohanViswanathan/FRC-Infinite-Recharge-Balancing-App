@@ -1,0 +1,1373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C70499DBB19E6F16AA731D3EEFEF379 /* AvailableHapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBFDE7698583C5ACA6C45C5A1F9FD /* AvailableHapticFeedback.swift */; };
+		1F727B4291E8166A72DD4E8DC5CDC876 /* MultiSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E248D488B0F5D3ACE8F3FB39A67CB66 /* MultiSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8B23F5FB2F9D53F7F80B8628A68157 /* Pods-Generator Switch Balancing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 064FC1D9454CC455FD0B526C80BE0EE5 /* Pods-Generator Switch Balancing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E78EA6E67FDACF03F0666989268D7F /* MiniLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D95EE49B3E31DCA524AFEB954067CC /* MiniLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58A8B7E7E5FAEA06C275B1885A57B2F4 /* MultiSlider+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B23B74160BAA7AA83D2D586B7B6335 /* MultiSlider+Drag.swift */; };
+		66F841179D74843A535AAB86E5777F5C /* AvailableHapticFeedback-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 826FBBF4DF38503C2FBDCA164FF0C0E3 /* AvailableHapticFeedback-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C04CB1281E5F08386D448EC9D809AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */; };
+		757D65F937A425519F9F0B6D0FDD3379 /* MultiSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214010B3EEC2FAC188A8CAA17C9EFD8F /* MultiSlider.swift */; };
+		77EF405DFA4FF3DFD89C7FCD1AD98052 /* AvailableHapticFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3501C9DC80A4E842DE150FFB78133445 /* AvailableHapticFeedback.framework */; };
+		79F695162BB29D47FFA7B8D55456A9D2 /* Pods-Generator Switch BalancingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC393F96AF1299D3F3A64C85B4CD191 /* Pods-Generator Switch BalancingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A79C7F483B58AFF9EB45C80F2D5BA3F /* MultiSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A595D25F28C3169820B81BA8B9DA10C /* MultiSlider-dummy.m */; };
+		8A4A0786A32788DBB9FED4D52564EEA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */; };
+		9760C8F50256C0AC9709FE49A029AA98 /* MiniLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783583C8F0AC0A35B0A9C06B6ABDF98 /* MiniLayout.swift */; };
+		9B8DB72FFB389286453F0E7C19DB4C46 /* MiniLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6FF99F2B3897543F8E379C050198D4 /* MiniLayout.framework */; };
+		A690A50B74FAE1B13D27BEA699FC925D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */; };
+		AF4D394E410D2E82D19F03AA0AA6C655 /* Pods-Generator Switch Balancing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F5FD3F3AECA29E0200A0B062DF17E3 /* Pods-Generator Switch Balancing-dummy.m */; };
+		B9854156F97E0E2A4F2CAAEC1C01ED90 /* Pods-Generator Switch BalancingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4C83539D94230597EB5564F31759F /* Pods-Generator Switch BalancingTests-dummy.m */; };
+		B99C8917D305C424E29DB7B690123A9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */; };
+		BAB4B78D8D9D82025CDCF6D47B186672 /* Pods-Generator Switch BalancingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B3D94FADFBDE1B02C606C3423491C4 /* Pods-Generator Switch BalancingUITests-dummy.m */; };
+		C016430F9BFD7B0839728C60A4465504 /* MiniLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B93BE0A4552A89C6CF5DE893EDF2B /* MiniLayout-dummy.m */; };
+		C1C87E22E60EFA8A3F97E74228F9C379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */; };
+		D70C7B9142A7D195B8DDEF0A611A133C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */; };
+		DE6872BD48CC82DE270DD8B721AD91B5 /* AvailableHapticFeedback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE85A5BC17FB32D03E21617C01A15782 /* AvailableHapticFeedback-dummy.m */; };
+		F0784B570ECB096171C04FF7B08BA78E /* Pods-Generator Switch BalancingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0976DF353BC6C9F71118A9B70A8FB85 /* Pods-Generator Switch BalancingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC80AEE2E999FE2914A39503DA205D1 /* MultiSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5C14E39D0213AE8080366FFA1CBB6 /* MultiSliderExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2304D8694A1F16DEC4D3826EE25E5650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2619EFDBFA95F10A9C1E4F976B193FC;
+			remoteInfo = MiniLayout;
+		};
+		2642634ED34FF3A2420D4F5AC7010F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1951A2B890124FD9BA4D985F75666CD6;
+			remoteInfo = "Pods-Generator Switch Balancing";
+		};
+		2EA5805D7FCB1FCD6D0A4E9F77FF9241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3512EBC5B210EF5D4D638A864E7E2A40;
+			remoteInfo = AvailableHapticFeedback;
+		};
+		86531F20D9490AB8E705527EF18B21A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1951A2B890124FD9BA4D985F75666CD6;
+			remoteInfo = "Pods-Generator Switch Balancing";
+		};
+		901B83D2A5B4C6CFC7517E7CDA7E1B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69984ED0D5D3CC1B9D170E4AC78A24E;
+			remoteInfo = MultiSlider;
+		};
+		97C9BA6A3C0935FF3E12CAD7BD4AEA5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3512EBC5B210EF5D4D638A864E7E2A40;
+			remoteInfo = AvailableHapticFeedback;
+		};
+		C157990281531D1A650DC9FF63570FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2619EFDBFA95F10A9C1E4F976B193FC;
+			remoteInfo = MiniLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D4C83539D94230597EB5564F31759F /* Pods-Generator Switch BalancingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Generator Switch BalancingTests-dummy.m"; sourceTree = "<group>"; };
+		064FC1D9454CC455FD0B526C80BE0EE5 /* Pods-Generator Switch Balancing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Generator Switch Balancing-umbrella.h"; sourceTree = "<group>"; };
+		087ACE765F7BB0DEDFFD3F61DFFECF6E /* Pods-Generator Switch Balancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Generator Switch Balancing.debug.xcconfig"; sourceTree = "<group>"; };
+		08FC6A12C2BE757FE6C4A77FAC84574F /* Pods-Generator Switch BalancingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Generator Switch BalancingTests.modulemap"; sourceTree = "<group>"; };
+		09F5FD3F3AECA29E0200A0B062DF17E3 /* Pods-Generator Switch Balancing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Generator Switch Balancing-dummy.m"; sourceTree = "<group>"; };
+		1452440494A2AAD8D29C7D5752DA95B6 /* Pods-Generator Switch BalancingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Generator Switch BalancingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A2C209C73A62F7C752AC0C62C23AA37 /* Pods-Generator Switch Balancing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Generator Switch Balancing.modulemap"; sourceTree = "<group>"; };
+		1E248D488B0F5D3ACE8F3FB39A67CB66 /* MultiSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiSlider-umbrella.h"; sourceTree = "<group>"; };
+		214010B3EEC2FAC188A8CAA17C9EFD8F /* MultiSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiSlider.swift; path = Sources/MultiSlider.swift; sourceTree = "<group>"; };
+		235B65ACB6299C36844365C1D59FD706 /* Pods-Generator Switch Balancing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Generator Switch Balancing-Info.plist"; sourceTree = "<group>"; };
+		24DDCFAFD58FF23CB03E9A8AE0B7579A /* MiniLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MiniLayout.modulemap; sourceTree = "<group>"; };
+		2D7B93BE0A4552A89C6CF5DE893EDF2B /* MiniLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MiniLayout-dummy.m"; sourceTree = "<group>"; };
+		2FC393F96AF1299D3F3A64C85B4CD191 /* Pods-Generator Switch BalancingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Generator Switch BalancingTests-umbrella.h"; sourceTree = "<group>"; };
+		3168715CDFE3F39338CDB907CB65088A /* AvailableHapticFeedback.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvailableHapticFeedback.modulemap; sourceTree = "<group>"; };
+		321F947CCB4F89621308B3D670D178D4 /* MultiSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiSlider-prefix.pch"; sourceTree = "<group>"; };
+		3501C9DC80A4E842DE150FFB78133445 /* AvailableHapticFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvailableHapticFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C1279A1DF7439922C4599317C63C03 /* MiniLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MiniLayout-Info.plist"; sourceTree = "<group>"; };
+		3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A7C6E79F290BC91148A8A4DD55B0074 /* MultiSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiSlider.xcconfig; sourceTree = "<group>"; };
+		3F0CB9D87EEFF951754C77F996F66201 /* AvailableHapticFeedback.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvailableHapticFeedback.xcconfig; sourceTree = "<group>"; };
+		46D95EE49B3E31DCA524AFEB954067CC /* MiniLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiniLayout-umbrella.h"; sourceTree = "<group>"; };
+		4A4592B4E3907778A4236184B9C37C5E /* AvailableHapticFeedback-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvailableHapticFeedback-Info.plist"; sourceTree = "<group>"; };
+		4A595D25F28C3169820B81BA8B9DA10C /* MultiSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiSlider-dummy.m"; sourceTree = "<group>"; };
+		5766B663021E3057BAC85894608A724D /* MultiSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MultiSlider-Info.plist"; sourceTree = "<group>"; };
+		5F3C0ADCC03A49909C2CD31A69EFE888 /* Pods-Generator Switch BalancingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Generator Switch BalancingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62CFD27533AC34ED2DFA8F9DB670FED3 /* Pods_Generator_Switch_Balancing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Generator_Switch_Balancing.framework; path = "Pods-Generator Switch Balancing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E17431B149E00F2A5CD81EB11B7F62 /* Pods-Generator Switch Balancing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Generator Switch Balancing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FF5C14E39D0213AE8080366FFA1CBB6 /* MultiSliderExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiSliderExtensions.swift; path = Sources/MultiSliderExtensions.swift; sourceTree = "<group>"; };
+		8137E8C004036C8D44108AB499C1EE9B /* AvailableHapticFeedback-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvailableHapticFeedback-prefix.pch"; sourceTree = "<group>"; };
+		826FBBF4DF38503C2FBDCA164FF0C0E3 /* AvailableHapticFeedback-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvailableHapticFeedback-umbrella.h"; sourceTree = "<group>"; };
+		8722AF4C542A7EC2DFAF9E40E7A5B462 /* Pods-Generator Switch Balancing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Generator Switch Balancing-acknowledgements.plist"; sourceTree = "<group>"; };
+		88BBBFDE7698583C5ACA6C45C5A1F9FD /* AvailableHapticFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AvailableHapticFeedback.swift; path = Sources/AvailableHapticFeedback.swift; sourceTree = "<group>"; };
+		918CD90AA6E0F417E1BFBBE02E505B18 /* Pods-Generator Switch BalancingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Generator Switch BalancingTests-Info.plist"; sourceTree = "<group>"; };
+		93B48E308FD9D0CC0AC576FA6F72952A /* Pods-Generator Switch BalancingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Generator Switch BalancingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97B2E4C99728F5C6B96EED32EA3DA7A0 /* Pods-Generator Switch BalancingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Generator Switch BalancingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9AD83BC20DF7FFA442D6109A31E8F647 /* Pods-Generator Switch BalancingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Generator Switch BalancingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD43CBC91A954C22246B3BC1A604303 /* Pods-Generator Switch BalancingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Generator Switch BalancingTests.release.xcconfig"; sourceTree = "<group>"; };
+		A51BF393EB126A8DB349AEADC8F6AD75 /* Pods-Generator Switch BalancingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Generator Switch BalancingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D5F9724F82F8CC3A8BBB519E337890 /* MultiSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultiSlider.modulemap; sourceTree = "<group>"; };
+		A8B23B74160BAA7AA83D2D586B7B6335 /* MultiSlider+Drag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MultiSlider+Drag.swift"; path = "Sources/MultiSlider+Drag.swift"; sourceTree = "<group>"; };
+		AA1D74F47D7F1A74050558805214EF6A /* Pods_Generator_Switch_BalancingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Generator_Switch_BalancingTests.framework; path = "Pods-Generator Switch BalancingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3BDE33FA83A99D43D14A9DD48EB705 /* Pods-Generator Switch Balancing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Generator Switch Balancing-frameworks.sh"; sourceTree = "<group>"; };
+		B4B550C0CA274E1BFD703235A847E121 /* Pods-Generator Switch BalancingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Generator Switch BalancingUITests.modulemap"; sourceTree = "<group>"; };
+		B783583C8F0AC0A35B0A9C06B6ABDF98 /* MiniLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiniLayout.swift; path = Sources/MiniLayout.swift; sourceTree = "<group>"; };
+		BE176A9A17CC398BC2D58DD429E2BFAF /* Pods-Generator Switch BalancingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Generator Switch BalancingUITests-Info.plist"; sourceTree = "<group>"; };
+		BED92AA941958BAB7262153875FD85AB /* MiniLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MiniLayout.framework; path = MiniLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AF15739A8D8D60C6325F9D2B696E7E /* MiniLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MiniLayout.xcconfig; sourceTree = "<group>"; };
+		C4B3D94FADFBDE1B02C606C3423491C4 /* Pods-Generator Switch BalancingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Generator Switch BalancingUITests-dummy.m"; sourceTree = "<group>"; };
+		CA6FF99F2B3897543F8E379C050198D4 /* MiniLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiniLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0976DF353BC6C9F71118A9B70A8FB85 /* Pods-Generator Switch BalancingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Generator Switch BalancingUITests-umbrella.h"; sourceTree = "<group>"; };
+		D306F3B73B0E0A789613827FE76170DA /* AvailableHapticFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvailableHapticFeedback.framework; path = AvailableHapticFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E634FE1DC637C5EB740BC101A36ADA81 /* Pods-Generator Switch Balancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Generator Switch Balancing.release.xcconfig"; sourceTree = "<group>"; };
+		E9A458F728573EEEEB48841B8688C8D2 /* MiniLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiniLayout-prefix.pch"; sourceTree = "<group>"; };
+		FB710FE125F9F03098F08A750214F3A2 /* MultiSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiSlider.framework; path = MultiSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DE0B0F7C11D2D916C1CC4A94EB902 /* Pods_Generator_Switch_BalancingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Generator_Switch_BalancingUITests.framework; path = "Pods-Generator Switch BalancingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE85A5BC17FB32D03E21617C01A15782 /* AvailableHapticFeedback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvailableHapticFeedback-dummy.m"; sourceTree = "<group>"; };
+		FF359041A013DAF39C8F01E54D00C166 /* Pods-Generator Switch BalancingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Generator Switch BalancingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF061FEA7873C1FA125C08E21A74EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EF405DFA4FF3DFD89C7FCD1AD98052 /* AvailableHapticFeedback.framework in Frameworks */,
+				8A4A0786A32788DBB9FED4D52564EEA5 /* Foundation.framework in Frameworks */,
+				9B8DB72FFB389286453F0E7C19DB4C46 /* MiniLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650A24AF1A6AABBB581A9C38DC0CB3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C87E22E60EFA8A3F97E74228F9C379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D96F397375B310410C8BC633BCA01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A690A50B74FAE1B13D27BEA699FC925D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43F2BDEC3F41C8ADD11B32662EB1248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C04CB1281E5F08386D448EC9D809AED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B754EA11DF8370D50FE7097469947FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99C8917D305C424E29DB7B690123A9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06341BA2F163CE2E56B3FCE768BB39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70C7B9142A7D195B8DDEF0A611A133C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E51F67DE6725BA96C49E938CD3FD527 /* Pods-Generator Switch BalancingTests */ = {
+			isa = PBXGroup;
+			children = (
+				08FC6A12C2BE757FE6C4A77FAC84574F /* Pods-Generator Switch BalancingTests.modulemap */,
+				1452440494A2AAD8D29C7D5752DA95B6 /* Pods-Generator Switch BalancingTests-acknowledgements.markdown */,
+				FF359041A013DAF39C8F01E54D00C166 /* Pods-Generator Switch BalancingTests-acknowledgements.plist */,
+				00D4C83539D94230597EB5564F31759F /* Pods-Generator Switch BalancingTests-dummy.m */,
+				918CD90AA6E0F417E1BFBBE02E505B18 /* Pods-Generator Switch BalancingTests-Info.plist */,
+				2FC393F96AF1299D3F3A64C85B4CD191 /* Pods-Generator Switch BalancingTests-umbrella.h */,
+				9AD83BC20DF7FFA442D6109A31E8F647 /* Pods-Generator Switch BalancingTests.debug.xcconfig */,
+				9DD43CBC91A954C22246B3BC1A604303 /* Pods-Generator Switch BalancingTests.release.xcconfig */,
+			);
+			name = "Pods-Generator Switch BalancingTests";
+			path = "Target Support Files/Pods-Generator Switch BalancingTests";
+			sourceTree = "<group>";
+		};
+		11721B0F17859A50EAB5520F270C7E5C /* MiniLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B783583C8F0AC0A35B0A9C06B6ABDF98 /* MiniLayout.swift */,
+				F3A84EB831671C809F112C70AF05F76F /* Support Files */,
+			);
+			name = MiniLayout;
+			path = MiniLayout;
+			sourceTree = "<group>";
+		};
+		2D918A43563F026C44C47B06AA66E649 /* Pods-Generator Switch Balancing */ = {
+			isa = PBXGroup;
+			children = (
+				1A2C209C73A62F7C752AC0C62C23AA37 /* Pods-Generator Switch Balancing.modulemap */,
+				76E17431B149E00F2A5CD81EB11B7F62 /* Pods-Generator Switch Balancing-acknowledgements.markdown */,
+				8722AF4C542A7EC2DFAF9E40E7A5B462 /* Pods-Generator Switch Balancing-acknowledgements.plist */,
+				09F5FD3F3AECA29E0200A0B062DF17E3 /* Pods-Generator Switch Balancing-dummy.m */,
+				AF3BDE33FA83A99D43D14A9DD48EB705 /* Pods-Generator Switch Balancing-frameworks.sh */,
+				235B65ACB6299C36844365C1D59FD706 /* Pods-Generator Switch Balancing-Info.plist */,
+				064FC1D9454CC455FD0B526C80BE0EE5 /* Pods-Generator Switch Balancing-umbrella.h */,
+				087ACE765F7BB0DEDFFD3F61DFFECF6E /* Pods-Generator Switch Balancing.debug.xcconfig */,
+				E634FE1DC637C5EB740BC101A36ADA81 /* Pods-Generator Switch Balancing.release.xcconfig */,
+			);
+			name = "Pods-Generator Switch Balancing";
+			path = "Target Support Files/Pods-Generator Switch Balancing";
+			sourceTree = "<group>";
+		};
+		4250BA8E74D9D42ACED17BC9EB9A4473 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D918A43563F026C44C47B06AA66E649 /* Pods-Generator Switch Balancing */,
+				0E51F67DE6725BA96C49E938CD3FD527 /* Pods-Generator Switch BalancingTests */,
+				7A8AA7A717DE1A733A47828AF0470BDF /* Pods-Generator Switch BalancingUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F2D73FF33AA4FAB8288C93CAA00C691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3501C9DC80A4E842DE150FFB78133445 /* AvailableHapticFeedback.framework */,
+				CA6FF99F2B3897543F8E379C050198D4 /* MiniLayout.framework */,
+				92B6AEA8C027AAE526C5D83AFDE931EC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A8AA7A717DE1A733A47828AF0470BDF /* Pods-Generator Switch BalancingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4B550C0CA274E1BFD703235A847E121 /* Pods-Generator Switch BalancingUITests.modulemap */,
+				97B2E4C99728F5C6B96EED32EA3DA7A0 /* Pods-Generator Switch BalancingUITests-acknowledgements.markdown */,
+				93B48E308FD9D0CC0AC576FA6F72952A /* Pods-Generator Switch BalancingUITests-acknowledgements.plist */,
+				C4B3D94FADFBDE1B02C606C3423491C4 /* Pods-Generator Switch BalancingUITests-dummy.m */,
+				BE176A9A17CC398BC2D58DD429E2BFAF /* Pods-Generator Switch BalancingUITests-Info.plist */,
+				D0976DF353BC6C9F71118A9B70A8FB85 /* Pods-Generator Switch BalancingUITests-umbrella.h */,
+				A51BF393EB126A8DB349AEADC8F6AD75 /* Pods-Generator Switch BalancingUITests.debug.xcconfig */,
+				5F3C0ADCC03A49909C2CD31A69EFE888 /* Pods-Generator Switch BalancingUITests.release.xcconfig */,
+			);
+			name = "Pods-Generator Switch BalancingUITests";
+			path = "Target Support Files/Pods-Generator Switch BalancingUITests";
+			sourceTree = "<group>";
+		};
+		7FD7BD47319095A3E52335869EB4E7A1 /* AvailableHapticFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				88BBBFDE7698583C5ACA6C45C5A1F9FD /* AvailableHapticFeedback.swift */,
+				ECCDB625FDD700C72DF4F312A55A501F /* Support Files */,
+			);
+			name = AvailableHapticFeedback;
+			path = AvailableHapticFeedback;
+			sourceTree = "<group>";
+		};
+		92B6AEA8C027AAE526C5D83AFDE931EC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3754CD1E95F8C557DF3AA91856D18F0D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5F2D73FF33AA4FAB8288C93CAA00C691 /* Frameworks */,
+				EAC8286A18491103003E19D03BEAA107 /* Pods */,
+				FACC4378B94A8848AF2F27AB7F06C26C /* Products */,
+				4250BA8E74D9D42ACED17BC9EB9A4473 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F06A018D18DF7BB66536C921B030A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D5F9724F82F8CC3A8BBB519E337890 /* MultiSlider.modulemap */,
+				3A7C6E79F290BC91148A8A4DD55B0074 /* MultiSlider.xcconfig */,
+				4A595D25F28C3169820B81BA8B9DA10C /* MultiSlider-dummy.m */,
+				5766B663021E3057BAC85894608A724D /* MultiSlider-Info.plist */,
+				321F947CCB4F89621308B3D670D178D4 /* MultiSlider-prefix.pch */,
+				1E248D488B0F5D3ACE8F3FB39A67CB66 /* MultiSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MultiSlider";
+			sourceTree = "<group>";
+		};
+		E7255A0087FC3FF73072CF22395707FB /* MultiSlider */ = {
+			isa = PBXGroup;
+			children = (
+				214010B3EEC2FAC188A8CAA17C9EFD8F /* MultiSlider.swift */,
+				A8B23B74160BAA7AA83D2D586B7B6335 /* MultiSlider+Drag.swift */,
+				7FF5C14E39D0213AE8080366FFA1CBB6 /* MultiSliderExtensions.swift */,
+				E1F06A018D18DF7BB66536C921B030A7 /* Support Files */,
+			);
+			name = MultiSlider;
+			path = MultiSlider;
+			sourceTree = "<group>";
+		};
+		EAC8286A18491103003E19D03BEAA107 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7BD47319095A3E52335869EB4E7A1 /* AvailableHapticFeedback */,
+				11721B0F17859A50EAB5520F270C7E5C /* MiniLayout */,
+				E7255A0087FC3FF73072CF22395707FB /* MultiSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECCDB625FDD700C72DF4F312A55A501F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3168715CDFE3F39338CDB907CB65088A /* AvailableHapticFeedback.modulemap */,
+				3F0CB9D87EEFF951754C77F996F66201 /* AvailableHapticFeedback.xcconfig */,
+				FE85A5BC17FB32D03E21617C01A15782 /* AvailableHapticFeedback-dummy.m */,
+				4A4592B4E3907778A4236184B9C37C5E /* AvailableHapticFeedback-Info.plist */,
+				8137E8C004036C8D44108AB499C1EE9B /* AvailableHapticFeedback-prefix.pch */,
+				826FBBF4DF38503C2FBDCA164FF0C0E3 /* AvailableHapticFeedback-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AvailableHapticFeedback";
+			sourceTree = "<group>";
+		};
+		F3A84EB831671C809F112C70AF05F76F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24DDCFAFD58FF23CB03E9A8AE0B7579A /* MiniLayout.modulemap */,
+				C0AF15739A8D8D60C6325F9D2B696E7E /* MiniLayout.xcconfig */,
+				2D7B93BE0A4552A89C6CF5DE893EDF2B /* MiniLayout-dummy.m */,
+				36C1279A1DF7439922C4599317C63C03 /* MiniLayout-Info.plist */,
+				E9A458F728573EEEEB48841B8688C8D2 /* MiniLayout-prefix.pch */,
+				46D95EE49B3E31DCA524AFEB954067CC /* MiniLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MiniLayout";
+			sourceTree = "<group>";
+		};
+		FACC4378B94A8848AF2F27AB7F06C26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D306F3B73B0E0A789613827FE76170DA /* AvailableHapticFeedback.framework */,
+				BED92AA941958BAB7262153875FD85AB /* MiniLayout.framework */,
+				FB710FE125F9F03098F08A750214F3A2 /* MultiSlider.framework */,
+				62CFD27533AC34ED2DFA8F9DB670FED3 /* Pods_Generator_Switch_Balancing.framework */,
+				AA1D74F47D7F1A74050558805214EF6A /* Pods_Generator_Switch_BalancingTests.framework */,
+				FC6DE0B0F7C11D2D916C1CC4A94EB902 /* Pods_Generator_Switch_BalancingUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		222F8EA23DED814A20E7A823494F08BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8B23F5FB2F9D53F7F80B8628A68157 /* Pods-Generator Switch Balancing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E5DF7B944E798EBFE167DBC3587F8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F727B4291E8166A72DD4E8DC5CDC876 /* MultiSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A7A1F11775BE67559980D801FBA2FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E78EA6E67FDACF03F0666989268D7F /* MiniLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E1BA29F8122703FF3674B90D7BEE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F841179D74843A535AAB86E5777F5C /* AvailableHapticFeedback-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0B76A640CA19F52C4D7C4841A1BDEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F695162BB29D47FFA7B8D55456A9D2 /* Pods-Generator Switch BalancingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB195AE4DE71DF10756F20A494031ECD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0784B570ECB096171C04FF7B08BA78E /* Pods-Generator Switch BalancingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1951A2B890124FD9BA4D985F75666CD6 /* Pods-Generator Switch Balancing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02877BE3BF8C70D08AD82AF6D61E617 /* Build configuration list for PBXNativeTarget "Pods-Generator Switch Balancing" */;
+			buildPhases = (
+				222F8EA23DED814A20E7A823494F08BE /* Headers */,
+				C6C9767DD2D07308EFB1BB3BB03E9A00 /* Sources */,
+				B754EA11DF8370D50FE7097469947FDC /* Frameworks */,
+				74FCF2381D3D58BDF1295DE35FE5A751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335C03E8C78495338A4E19D45E8D60B1 /* PBXTargetDependency */,
+				E2A108ABC04C54E531824B9603E4A8B9 /* PBXTargetDependency */,
+				97A0DE91154F9494A198970AB08D809E /* PBXTargetDependency */,
+			);
+			name = "Pods-Generator Switch Balancing";
+			productName = "Pods-Generator Switch Balancing";
+			productReference = 62CFD27533AC34ED2DFA8F9DB670FED3 /* Pods_Generator_Switch_Balancing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85EFC3A758CBF520B5962085FEDAFC0 /* Build configuration list for PBXNativeTarget "AvailableHapticFeedback" */;
+			buildPhases = (
+				805E1BA29F8122703FF3674B90D7BEE8 /* Headers */,
+				965FFD72ACD27C799E26B526084C282D /* Sources */,
+				B0D96F397375B310410C8BC633BCA01B /* Frameworks */,
+				9DA81E5ADC0D75582D0078ADE7D06386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvailableHapticFeedback;
+			productName = AvailableHapticFeedback;
+			productReference = D306F3B73B0E0A789613827FE76170DA /* AvailableHapticFeedback.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4745C0F40849175A997019AEB6BE65ED /* Pods-Generator Switch BalancingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219ECB652C3C38FF2FAD658879F3F7BD /* Build configuration list for PBXNativeTarget "Pods-Generator Switch BalancingUITests" */;
+			buildPhases = (
+				CB195AE4DE71DF10756F20A494031ECD /* Headers */,
+				0ED63262A60642B5520F070232E3A249 /* Sources */,
+				F06341BA2F163CE2E56B3FCE768BB39B /* Frameworks */,
+				5F403B711BC5A8AFF0EFD639E9CBA61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85BD99EFA03E9959E93F42DD276EF88 /* PBXTargetDependency */,
+			);
+			name = "Pods-Generator Switch BalancingUITests";
+			productName = "Pods-Generator Switch BalancingUITests";
+			productReference = FC6DE0B0F7C11D2D916C1CC4A94EB902 /* Pods_Generator_Switch_BalancingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B783B58E8222B7003A136944C48F5507 /* Pods-Generator Switch BalancingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA3973C879D271FFDD10BA294F0244D /* Build configuration list for PBXNativeTarget "Pods-Generator Switch BalancingTests" */;
+			buildPhases = (
+				9E0B76A640CA19F52C4D7C4841A1BDEC /* Headers */,
+				7667FDFB823B274601B1423AF45DA4E8 /* Sources */,
+				650A24AF1A6AABBB581A9C38DC0CB3AA /* Frameworks */,
+				AD17939582DDC84F88ABAFDCE1398F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B71EF39C53DEE5874D23B9FA654A384C /* PBXTargetDependency */,
+			);
+			name = "Pods-Generator Switch BalancingTests";
+			productName = "Pods-Generator Switch BalancingTests";
+			productReference = AA1D74F47D7F1A74050558805214EF6A /* Pods_Generator_Switch_BalancingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2619EFDBFA95F10A9C1E4F976B193FC /* MiniLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE777F829ED8A18FADDF4EA6C9043E5B /* Build configuration list for PBXNativeTarget "MiniLayout" */;
+			buildPhases = (
+				42A7A1F11775BE67559980D801FBA2FB /* Headers */,
+				470AA5F3C41C4AAF3A4061C3AE8286B0 /* Sources */,
+				B43F2BDEC3F41C8ADD11B32662EB1248 /* Frameworks */,
+				0E2D2572127A95CECCBBC13BDC577BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniLayout;
+			productName = MiniLayout;
+			productReference = BED92AA941958BAB7262153875FD85AB /* MiniLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F69984ED0D5D3CC1B9D170E4AC78A24E /* MultiSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49C7B3B82E8046D195C0A8904EFD3EC /* Build configuration list for PBXNativeTarget "MultiSlider" */;
+			buildPhases = (
+				24E5DF7B944E798EBFE167DBC3587F8B /* Headers */,
+				10F80E601FC6C7F9D8EFD79D5466D758 /* Sources */,
+				3FF061FEA7873C1FA125C08E21A74EBE /* Frameworks */,
+				876E011D39C6D23D1624260980188CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73866F4136B836976386DEED44118730 /* PBXTargetDependency */,
+				915A71738F5F233314300FEA1E5E97AD /* PBXTargetDependency */,
+			);
+			name = MultiSlider;
+			productName = MultiSlider;
+			productReference = FB710FE125F9F03098F08A750214F3A2 /* MultiSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FACC4378B94A8848AF2F27AB7F06C26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */,
+				C2619EFDBFA95F10A9C1E4F976B193FC /* MiniLayout */,
+				F69984ED0D5D3CC1B9D170E4AC78A24E /* MultiSlider */,
+				1951A2B890124FD9BA4D985F75666CD6 /* Pods-Generator Switch Balancing */,
+				B783B58E8222B7003A136944C48F5507 /* Pods-Generator Switch BalancingTests */,
+				4745C0F40849175A997019AEB6BE65ED /* Pods-Generator Switch BalancingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E2D2572127A95CECCBBC13BDC577BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F403B711BC5A8AFF0EFD639E9CBA61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74FCF2381D3D58BDF1295DE35FE5A751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876E011D39C6D23D1624260980188CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA81E5ADC0D75582D0078ADE7D06386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD17939582DDC84F88ABAFDCE1398F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ED63262A60642B5520F070232E3A249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB4B78D8D9D82025CDCF6D47B186672 /* Pods-Generator Switch BalancingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F80E601FC6C7F9D8EFD79D5466D758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A8B7E7E5FAEA06C275B1885A57B2F4 /* MultiSlider+Drag.swift in Sources */,
+				7A79C7F483B58AFF9EB45C80F2D5BA3F /* MultiSlider-dummy.m in Sources */,
+				757D65F937A425519F9F0B6D0FDD3379 /* MultiSlider.swift in Sources */,
+				FBC80AEE2E999FE2914A39503DA205D1 /* MultiSliderExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470AA5F3C41C4AAF3A4061C3AE8286B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C016430F9BFD7B0839728C60A4465504 /* MiniLayout-dummy.m in Sources */,
+				9760C8F50256C0AC9709FE49A029AA98 /* MiniLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667FDFB823B274601B1423AF45DA4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9854156F97E0E2A4F2CAAEC1C01ED90 /* Pods-Generator Switch BalancingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965FFD72ACD27C799E26B526084C282D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6872BD48CC82DE270DD8B721AD91B5 /* AvailableHapticFeedback-dummy.m in Sources */,
+				1C70499DBB19E6F16AA731D3EEFEF379 /* AvailableHapticFeedback.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C9767DD2D07308EFB1BB3BB03E9A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4D394E410D2E82D19F03AA0AA6C655 /* Pods-Generator Switch Balancing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335C03E8C78495338A4E19D45E8D60B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvailableHapticFeedback;
+			target = 3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */;
+			targetProxy = 2EA5805D7FCB1FCD6D0A4E9F77FF9241 /* PBXContainerItemProxy */;
+		};
+		73866F4136B836976386DEED44118730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvailableHapticFeedback;
+			target = 3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */;
+			targetProxy = 97C9BA6A3C0935FF3E12CAD7BD4AEA5F /* PBXContainerItemProxy */;
+		};
+		915A71738F5F233314300FEA1E5E97AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MiniLayout;
+			target = C2619EFDBFA95F10A9C1E4F976B193FC /* MiniLayout */;
+			targetProxy = 2304D8694A1F16DEC4D3826EE25E5650 /* PBXContainerItemProxy */;
+		};
+		97A0DE91154F9494A198970AB08D809E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiSlider;
+			target = F69984ED0D5D3CC1B9D170E4AC78A24E /* MultiSlider */;
+			targetProxy = 901B83D2A5B4C6CFC7517E7CDA7E1B68 /* PBXContainerItemProxy */;
+		};
+		B71EF39C53DEE5874D23B9FA654A384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Generator Switch Balancing";
+			target = 1951A2B890124FD9BA4D985F75666CD6 /* Pods-Generator Switch Balancing */;
+			targetProxy = 2642634ED34FF3A2420D4F5AC7010F9A /* PBXContainerItemProxy */;
+		};
+		C85BD99EFA03E9959E93F42DD276EF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Generator Switch Balancing";
+			target = 1951A2B890124FD9BA4D985F75666CD6 /* Pods-Generator Switch Balancing */;
+			targetProxy = 86531F20D9490AB8E705527EF18B21A2 /* PBXContainerItemProxy */;
+		};
+		E2A108ABC04C54E531824B9603E4A8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MiniLayout;
+			target = C2619EFDBFA95F10A9C1E4F976B193FC /* MiniLayout */;
+			targetProxy = C157990281531D1A650DC9FF63570FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1624ED6AC23CD720C24987173EA586E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51BF393EB126A8DB349AEADC8F6AD75 /* Pods-Generator Switch BalancingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Generator Switch BalancingUITests/Pods-Generator Switch BalancingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Generator Switch BalancingUITests/Pods-Generator Switch BalancingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		255F68F262C50AB50D3EDD00EA380A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0CB9D87EEFF951754C77F996F66201 /* AvailableHapticFeedback.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback.modulemap";
+				PRODUCT_MODULE_NAME = AvailableHapticFeedback;
+				PRODUCT_NAME = AvailableHapticFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C8214E33BCAA72A3C103CBA65D4FAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0CB9D87EEFF951754C77F996F66201 /* AvailableHapticFeedback.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback.modulemap";
+				PRODUCT_MODULE_NAME = AvailableHapticFeedback;
+				PRODUCT_NAME = AvailableHapticFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D0E029A08B7B6D42C2230E27EC51A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AF15739A8D8D60C6325F9D2B696E7E /* MiniLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MiniLayout/MiniLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MiniLayout/MiniLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MiniLayout/MiniLayout.modulemap";
+				PRODUCT_MODULE_NAME = MiniLayout;
+				PRODUCT_NAME = MiniLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		565130DB9BB6C294043BCAEA9F083DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3C0ADCC03A49909C2CD31A69EFE888 /* Pods-Generator Switch BalancingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Generator Switch BalancingUITests/Pods-Generator Switch BalancingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Generator Switch BalancingUITests/Pods-Generator Switch BalancingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A43A90D8CB66CAB3370CD1072803C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AF15739A8D8D60C6325F9D2B696E7E /* MiniLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MiniLayout/MiniLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MiniLayout/MiniLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MiniLayout/MiniLayout.modulemap";
+				PRODUCT_MODULE_NAME = MiniLayout;
+				PRODUCT_NAME = MiniLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A87AE9988381609E257E1EED6DD4DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087ACE765F7BB0DEDFFD3F61DFFECF6E /* Pods-Generator Switch Balancing.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B9DA1ED6DFE0251E87F598071A00381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD83BC20DF7FFA442D6109A31E8F647 /* Pods-Generator Switch BalancingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Generator Switch BalancingTests/Pods-Generator Switch BalancingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Generator Switch BalancingTests/Pods-Generator Switch BalancingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A2D4AEE0D0D1FFCA78767453A9BE8D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7C6E79F290BC91148A8A4DD55B0074 /* MultiSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiSlider/MultiSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiSlider/MultiSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MultiSlider/MultiSlider.modulemap";
+				PRODUCT_MODULE_NAME = MultiSlider;
+				PRODUCT_NAME = MultiSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7DA01DD1368E571136BEC6DB9AE6C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E634FE1DC637C5EB740BC101A36ADA81 /* Pods-Generator Switch Balancing.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Generator Switch Balancing/Pods-Generator Switch Balancing.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D69DD6D80B28EBF4A8811439DAC3A67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7C6E79F290BC91148A8A4DD55B0074 /* MultiSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiSlider/MultiSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiSlider/MultiSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MultiSlider/MultiSlider.modulemap";
+				PRODUCT_MODULE_NAME = MultiSlider;
+				PRODUCT_NAME = MultiSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFDAC3F4B2F14DFFD5207F24099B5D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD43CBC91A954C22246B3BC1A604303 /* Pods-Generator Switch BalancingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Generator Switch BalancingTests/Pods-Generator Switch BalancingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Generator Switch BalancingTests/Pods-Generator Switch BalancingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219ECB652C3C38FF2FAD658879F3F7BD /* Build configuration list for PBXNativeTarget "Pods-Generator Switch BalancingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1624ED6AC23CD720C24987173EA586E2 /* Debug */,
+				565130DB9BB6C294043BCAEA9F083DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA3973C879D271FFDD10BA294F0244D /* Build configuration list for PBXNativeTarget "Pods-Generator Switch BalancingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9DA1ED6DFE0251E87F598071A00381 /* Debug */,
+				EFDAC3F4B2F14DFFD5207F24099B5D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49C7B3B82E8046D195C0A8904EFD3EC /* Build configuration list for PBXNativeTarget "MultiSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D4AEE0D0D1FFCA78767453A9BE8D82 /* Debug */,
+				D69DD6D80B28EBF4A8811439DAC3A67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85EFC3A758CBF520B5962085FEDAFC0 /* Build configuration list for PBXNativeTarget "AvailableHapticFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8214E33BCAA72A3C103CBA65D4FAE4 /* Debug */,
+				255F68F262C50AB50D3EDD00EA380A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02877BE3BF8C70D08AD82AF6D61E617 /* Build configuration list for PBXNativeTarget "Pods-Generator Switch Balancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A87AE9988381609E257E1EED6DD4DC4 /* Debug */,
+				A7DA01DD1368E571136BEC6DB9AE6C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE777F829ED8A18FADDF4EA6C9043E5B /* Build configuration list for PBXNativeTarget "MiniLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0E029A08B7B6D42C2230E27EC51A24 /* Debug */,
+				5A43A90D8CB66CAB3370CD1072803C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
