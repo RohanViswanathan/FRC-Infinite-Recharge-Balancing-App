@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12E75E123D5479E00F9194B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E75E023D5479E00F9194B /* AppDelegate.swift */; };
+		D12E75E323D5479E00F9194B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E75E223D5479E00F9194B /* ViewController.swift */; };
+		D12E75E623D5479E00F9194B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12E75E423D5479E00F9194B /* Main.storyboard */; };
+		D12E75E923D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D12E75E723D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodeld */; };
+		D12E75EB23D5479E00F9194B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12E75EA23D5479E00F9194B /* Assets.xcassets */; };
+		D12E75EE23D5479E00F9194B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12E75EC23D5479E00F9194B /* LaunchScreen.storyboard */; };
+		D12E75F923D5479F00F9194B /* Generator_Switch_BalancingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E75F823D5479F00F9194B /* Generator_Switch_BalancingTests.swift */; };
+		D12E760423D5479F00F9194B /* Generator_Switch_BalancingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E760323D5479F00F9194B /* Generator_Switch_BalancingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12E75F523D5479F00F9194B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12E75D523D5479E00F9194B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12E75DC23D5479E00F9194B;
+			remoteInfo = "Generator Switch Balancing";
+		};
+		D12E760023D5479F00F9194B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12E75D523D5479E00F9194B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12E75DC23D5479E00F9194B;
+			remoteInfo = "Generator Switch Balancing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12E75DD23D5479E00F9194B /* Generator Switch Balancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generator Switch Balancing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12E75E023D5479E00F9194B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D12E75E223D5479E00F9194B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D12E75E523D5479E00F9194B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12E75E823D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Generator_Switch_Balancing.xcdatamodel; sourceTree = "<group>"; };
+		D12E75EA23D5479E00F9194B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12E75ED23D5479E00F9194B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D12E75EF23D5479E00F9194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12E75F423D5479F00F9194B /* Generator Switch BalancingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generator Switch BalancingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12E75F823D5479F00F9194B /* Generator_Switch_BalancingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator_Switch_BalancingTests.swift; sourceTree = "<group>"; };
+		D12E75FA23D5479F00F9194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12E75FF23D5479F00F9194B /* Generator Switch BalancingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generator Switch BalancingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12E760323D5479F00F9194B /* Generator_Switch_BalancingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator_Switch_BalancingUITests.swift; sourceTree = "<group>"; };
+		D12E760523D5479F00F9194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12E75DA23D5479E00F9194B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12E75F123D5479F00F9194B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12E75FC23D5479F00F9194B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12E75D423D5479E00F9194B = {
+			isa = PBXGroup;
+			children = (
+				D12E75DF23D5479E00F9194B /* Generator Switch Balancing */,
+				D12E75F723D5479F00F9194B /* Generator Switch BalancingTests */,
+				D12E760223D5479F00F9194B /* Generator Switch BalancingUITests */,
+				D12E75DE23D5479E00F9194B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12E75DE23D5479E00F9194B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12E75DD23D5479E00F9194B /* Generator Switch Balancing.app */,
+				D12E75F423D5479F00F9194B /* Generator Switch BalancingTests.xctest */,
+				D12E75FF23D5479F00F9194B /* Generator Switch BalancingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12E75DF23D5479E00F9194B /* Generator Switch Balancing */ = {
+			isa = PBXGroup;
+			children = (
+				D12E75E023D5479E00F9194B /* AppDelegate.swift */,
+				D12E75E223D5479E00F9194B /* ViewController.swift */,
+				D12E75E423D5479E00F9194B /* Main.storyboard */,
+				D12E75EA23D5479E00F9194B /* Assets.xcassets */,
+				D12E75EC23D5479E00F9194B /* LaunchScreen.storyboard */,
+				D12E75EF23D5479E00F9194B /* Info.plist */,
+				D12E75E723D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodeld */,
+			);
+			path = "Generator Switch Balancing";
+			sourceTree = "<group>";
+		};
+		D12E75F723D5479F00F9194B /* Generator Switch BalancingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12E75F823D5479F00F9194B /* Generator_Switch_BalancingTests.swift */,
+				D12E75FA23D5479F00F9194B /* Info.plist */,
+			);
+			path = "Generator Switch BalancingTests";
+			sourceTree = "<group>";
+		};
+		D12E760223D5479F00F9194B /* Generator Switch BalancingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12E760323D5479F00F9194B /* Generator_Switch_BalancingUITests.swift */,
+				D12E760523D5479F00F9194B /* Info.plist */,
+			);
+			path = "Generator Switch BalancingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12E75DC23D5479E00F9194B /* Generator Switch Balancing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12E760823D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch Balancing" */;
+			buildPhases = (
+				D12E75D923D5479E00F9194B /* Sources */,
+				D12E75DA23D5479E00F9194B /* Frameworks */,
+				D12E75DB23D5479E00F9194B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Generator Switch Balancing";
+			productName = "Generator Switch Balancing";
+			productReference = D12E75DD23D5479E00F9194B /* Generator Switch Balancing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12E75F323D5479F00F9194B /* Generator Switch BalancingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12E760B23D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch BalancingTests" */;
+			buildPhases = (
+				D12E75F023D5479F00F9194B /* Sources */,
+				D12E75F123D5479F00F9194B /* Frameworks */,
+				D12E75F223D5479F00F9194B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12E75F623D5479F00F9194B /* PBXTargetDependency */,
+			);
+			name = "Generator Switch BalancingTests";
+			productName = "Generator Switch BalancingTests";
+			productReference = D12E75F423D5479F00F9194B /* Generator Switch BalancingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12E75FE23D5479F00F9194B /* Generator Switch BalancingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12E760E23D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch BalancingUITests" */;
+			buildPhases = (
+				D12E75FB23D5479F00F9194B /* Sources */,
+				D12E75FC23D5479F00F9194B /* Frameworks */,
+				D12E75FD23D5479F00F9194B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12E760123D5479F00F9194B /* PBXTargetDependency */,
+			);
+			name = "Generator Switch BalancingUITests";
+			productName = "Generator Switch BalancingUITests";
+			productReference = D12E75FF23D5479F00F9194B /* Generator Switch BalancingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12E75D523D5479E00F9194B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Team 3256";
+				TargetAttributes = {
+					D12E75DC23D5479E00F9194B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D12E75F323D5479F00F9194B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D12E75DC23D5479E00F9194B;
+					};
+					D12E75FE23D5479F00F9194B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D12E75DC23D5479E00F9194B;
+					};
+				};
+			};
+			buildConfigurationList = D12E75D823D5479E00F9194B /* Build configuration list for PBXProject "Generator Switch Balancing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12E75D423D5479E00F9194B;
+			productRefGroup = D12E75DE23D5479E00F9194B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12E75DC23D5479E00F9194B /* Generator Switch Balancing */,
+				D12E75F323D5479F00F9194B /* Generator Switch BalancingTests */,
+				D12E75FE23D5479F00F9194B /* Generator Switch BalancingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12E75DB23D5479E00F9194B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12E75EE23D5479E00F9194B /* LaunchScreen.storyboard in Resources */,
+				D12E75EB23D5479E00F9194B /* Assets.xcassets in Resources */,
+				D12E75E623D5479E00F9194B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12E75F223D5479F00F9194B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12E75FD23D5479F00F9194B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12E75D923D5479E00F9194B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12E75E923D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodeld in Sources */,
+				D12E75E323D5479E00F9194B /* ViewController.swift in Sources */,
+				D12E75E123D5479E00F9194B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12E75F023D5479F00F9194B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12E75F923D5479F00F9194B /* Generator_Switch_BalancingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12E75FB23D5479F00F9194B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12E760423D5479F00F9194B /* Generator_Switch_BalancingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12E75F623D5479F00F9194B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12E75DC23D5479E00F9194B /* Generator Switch Balancing */;
+			targetProxy = D12E75F523D5479F00F9194B /* PBXContainerItemProxy */;
+		};
+		D12E760123D5479F00F9194B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12E75DC23D5479E00F9194B /* Generator Switch Balancing */;
+			targetProxy = D12E760023D5479F00F9194B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D12E75E423D5479E00F9194B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12E75E523D5479E00F9194B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D12E75EC23D5479E00F9194B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12E75ED23D5479E00F9194B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12E760623D5479F00F9194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12E760723D5479F00F9194B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12E760923D5479F00F9194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZHRFV6HT;
+				INFOPLIST_FILE = "Generator Switch Balancing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team3256.Generator-Switch-Balancing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D12E760A23D5479F00F9194B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZHRFV6HT;
+				INFOPLIST_FILE = "Generator Switch Balancing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team3256.Generator-Switch-Balancing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D12E760C23D5479F00F9194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZHRFV6HT;
+				INFOPLIST_FILE = "Generator Switch BalancingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team3256.Generator-Switch-BalancingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Generator Switch Balancing.app/Generator Switch Balancing";
+			};
+			name = Debug;
+		};
+		D12E760D23D5479F00F9194B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZHRFV6HT;
+				INFOPLIST_FILE = "Generator Switch BalancingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team3256.Generator-Switch-BalancingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Generator Switch Balancing.app/Generator Switch Balancing";
+			};
+			name = Release;
+		};
+		D12E760F23D5479F00F9194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZHRFV6HT;
+				INFOPLIST_FILE = "Generator Switch BalancingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team3256.Generator-Switch-BalancingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Generator Switch Balancing";
+			};
+			name = Debug;
+		};
+		D12E761023D5479F00F9194B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZHRFV6HT;
+				INFOPLIST_FILE = "Generator Switch BalancingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team3256.Generator-Switch-BalancingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Generator Switch Balancing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12E75D823D5479E00F9194B /* Build configuration list for PBXProject "Generator Switch Balancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12E760623D5479F00F9194B /* Debug */,
+				D12E760723D5479F00F9194B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12E760823D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch Balancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12E760923D5479F00F9194B /* Debug */,
+				D12E760A23D5479F00F9194B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12E760B23D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch BalancingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12E760C23D5479F00F9194B /* Debug */,
+				D12E760D23D5479F00F9194B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12E760E23D5479F00F9194B /* Build configuration list for PBXNativeTarget "Generator Switch BalancingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12E760F23D5479F00F9194B /* Debug */,
+				D12E761023D5479F00F9194B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D12E75E723D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D12E75E823D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodel */,
+			);
+			currentVersion = D12E75E823D5479E00F9194B /* Generator_Switch_Balancing.xcdatamodel */;
+			path = Generator_Switch_Balancing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D12E75D523D5479E00F9194B /* Project object */;
+}
