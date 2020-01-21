@@ -65,20 +65,43 @@ class ViewController: UIViewController {
     @IBAction func R1PositionSliderChanged(_ sender: Any) {
         R1Position = (110*(R1PositionSlider.value)) - 55
         R1PositionLabel.text = "\(R1Position)"
+        updateAngle()
     }
     
     @IBAction func R2PositionSliderChanged(_ sender: Any) {
         R2Position = (110*(R2PositionSlider.value)) - 55
         R2PositionLabel.text = "\(R2Position)"
+        updateAngle()
     }
     
     @IBAction func R3PositionSliderChanged(_ sender: Any) {
         R3Position = (110*(R3PositionSlider.value)) - 55
         R3PositionLabel.text = "\(R3Position)"
+        updateAngle()
     }
     
     @IBAction func CalculateAngle(_ sender: Any) {
+        updateView()
         updateAngle()
+    }
+    
+    @objc func updateView() {
+        if (Float(R1Weight.text!) == 0) {
+            R1PositionSlider.isHidden = true
+        }
+        else if (Float(R2Weight.text!) == 0) {
+            R2PositionSlider.isHidden = true
+        }
+            
+        else if (Float(R3Weight.text!) == 0) {
+            R3PositionSlider.isHidden = true
+        }
+            
+        else {
+            R1PositionSlider.isHidden = false
+            R2PositionSlider.isHidden = false
+            R3PositionSlider.isHidden = false
+        }
     }
     
     @objc func updateAngle() {
@@ -88,6 +111,7 @@ class ViewController: UIViewController {
         let R2CoGOffsetFloat: Float? = Float(R2CoGOffset.text!)
         let R3WeightFloat: Float? = Float(R3Weight.text!)
         let R3CoGOffsetFloat: Float? = Float(R3CoGOffset.text!)
+        
         let numerator = (R1WeightFloat!*R1Position) + (R2WeightFloat!*R2Position) + (R3WeightFloat!*R3Position)
         let denominator = (R1WeightFloat!*(generatorSwitchHeight + R1CoGOffsetFloat!)) + (R2WeightFloat!*(generatorSwitchHeight + R2CoGOffsetFloat!)) + (R3WeightFloat!*(generatorSwitchHeight + R3CoGOffsetFloat!)) + (generatorSwitchMass * generatorSwitchCOMHeight)
         angle = atan(-numerator/denominator) * 180 / Float.pi
