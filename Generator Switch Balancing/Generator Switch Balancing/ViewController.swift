@@ -12,14 +12,17 @@ class ViewController: UIViewController {
 
     //length of Generator Switch is 111.26 inches, so max hanging position is +- 55 inches
     //positive distance is to the right, negative distance is to the left
-    //position displayed is scaled from left-most point being 0, so conversion (given that v is slider value and p is displayed value is (p = 110v-55)
+    //position displayed is scaled from left-most point being 0, so conversion (given that v is slider value and p is displayed value is (p = 110v-55))
     
-    @IBOutlet weak var R1PositionSlider: UISlider!
+    //declaring the UI Sliders and their Position Label objects
+    @IBOutlet weak var R1PositionSlider: UISlider! 
     @IBOutlet weak var R2PositionSlider: UISlider!
     @IBOutlet weak var R3PositionSlider: UISlider!
     @IBOutlet weak var R1PositionLabel: UILabel!
     @IBOutlet weak var R2PositionLabel: UILabel!
     @IBOutlet weak var R3PositionLabel: UILabel!
+    
+    //declaring the text input fields for robot weights and center of gravity offsets
     @IBOutlet weak var R1Weight: UITextField!
     @IBOutlet weak var R2Weight: UITextField!
     @IBOutlet weak var R3Weight: UITextField!
@@ -27,6 +30,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var R2CoGOffset: UITextField!
     @IBOutlet weak var R3CoGOffset: UITextField!
     @IBOutlet weak var AngleLabel: UILabel!
+    
+    //declaring basic variables and constants for constant values like switch height and switch center of mass height, etc.
     var angle = Float(0.0);
     var R1Position = Float(0.0);
     var R2Position = Float(0.0);
@@ -37,8 +42,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //declaring a list of colors for easy use throughout the program
         let mainColors: [UIColor] = [UIColor.blue, UIColor.orange, UIColor.purple, UIColor.gray]
         
+        //setting the colors and initial values of the three robot position sliders
         R1PositionSlider.thumbTintColor = mainColors[0]
         R1PositionSlider.minimumTrackTintColor = mainColors[3]
         R1PositionSlider.maximumTrackTintColor = mainColors[3]
@@ -64,6 +72,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    //For each action of moving one of the three sliders, use the transform p = 110v-55 (where v is slider value and p is displayed value)
+    // to scale and normalize position and update the label value
     @IBAction func R1PositionSliderChanged(_ sender: Any) {
         R1Position = (110*(R1PositionSlider.value)) - 55
         R1PositionLabel.text = "\(R1Position)"
@@ -82,11 +92,14 @@ class ViewController: UIViewController {
         updateAngle()
     }
     
+    //This is an action that calls two other method subroutines to update the display view of the app with the sliders 
+    // and updates the switch balance angle calculation
     @IBAction func CalculateAngle(_ sender: Any) {
         updateView()
         updateAngle()
     }
     
+    //The below method makes sliders visible if they have a value associated with them, otherwise it hides the unused sliders
     @objc func updateView() {
         if (Float(R1Weight.text!) == 0) {
             R1PositionSlider.isHidden = true
@@ -105,6 +118,16 @@ class ViewController: UIViewController {
             R3PositionSlider.isHidden = false
         }
     }
+    
+    //This method takes into account the robot weight, center of gravity offset, and robot position as well as the switch's physical characteristics
+    // to calculate the switch's total angle. The independent variables of this analysis are the Robot Weight, Robot Position, Robot CoG offset, while the
+    // constant variables are the Switch Height, Switch Mass, and the Switch Center of Mass Height. 8 degrees is what constitutes a successfully balanced
+    // climb onto the switch, which is why the color of the angle turns either red or green based on whether the switch angle is within 8 degrees either side
+    // or not.
+    // Formula: atan[-(R1Weight*R1Position + R2Weight*R2Position + R3Weight*R3Position)/((R1Weight*(generatorSwitchHeight + R1CoGOffset)) + 
+    // (R2Weight*(generatorSwitchHeight + R2CoGOffset)) + (R3Weight*(generatorSwitchHeight + R3CoGOffset)) + (generatorSwitchMass * generatorSwitchCOMHeight)]
+    // This formula was calculated using the basic physics of center of gravity and its effects on lever objects in regards to torque with robot forces in different directions
+    // It returns in degrees that I subsequently convert to radians through multiplying by 180/pi
     
     @objc func updateAngle() {
         let R1WeightFloat: Float? = Float(R1Weight.text!)
