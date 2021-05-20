@@ -37,23 +37,25 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        R1PositionSlider.thumbTintColor = .blue
-        R1PositionSlider.minimumTrackTintColor = .gray
-        R1PositionSlider.maximumTrackTintColor = .gray
+        let mainColors: [UIColor] = [UIColor.blue, UIColor.orange, UIColor.purple, UIColor.gray]
+        
+        R1PositionSlider.thumbTintColor = mainColors[0]
+        R1PositionSlider.minimumTrackTintColor = mainColors[3]
+        R1PositionSlider.maximumTrackTintColor = mainColors[3]
         R1PositionSlider.value = 0
         R1Weight.text = "0"
         R1CoGOffset.text = "0"
         
-        R2PositionSlider.thumbTintColor = .orange
-        R2PositionSlider.minimumTrackTintColor = .gray
-        R2PositionSlider.maximumTrackTintColor = .gray
+        R2PositionSlider.thumbTintColor = mainColors[1]
+        R2PositionSlider.minimumTrackTintColor = mainColors[3]
+        R2PositionSlider.maximumTrackTintColor = mainColors[3]
         R2PositionSlider.value = 1
         R2Weight.text = "0"
         R2CoGOffset.text = "0"
         
-        R3PositionSlider.thumbTintColor = .purple
-        R3PositionSlider.minimumTrackTintColor = .gray
-        R3PositionSlider.maximumTrackTintColor = .gray
+        R3PositionSlider.thumbTintColor = mainColors[2]
+        R3PositionSlider.minimumTrackTintColor = mainColors[3]
+        R3PositionSlider.maximumTrackTintColor = mainColors[3]
         R3PositionSlider.value = 0.5
         R3Weight.text = "0"
         R3CoGOffset.text = "0"
