@@ -130,17 +130,39 @@ class ViewController: UIViewController {
     // It returns in degrees that I subsequently convert to radians through multiplying by 180/pi
     
     @objc func updateAngle() {
-        let R1WeightFloat: Float? = Float(R1Weight.text!)
-        let R1CoGOffsetFloat: Float? = Float(R1CoGOffset.text!)
-        let R2WeightFloat: Float? = Float(R2Weight.text!)
-        let R2CoGOffsetFloat: Float? = Float(R2CoGOffset.text!)
-        let R3WeightFloat: Float? = Float(R3Weight.text!)
-        let R3CoGOffsetFloat: Float? = Float(R3CoGOffset.text!)
+        
+        //declares variables to be used
+        var R1WeightFloat: Float?
+        var R1CoGOffsetFloat: Float?
+        var R2WeightFloat: Float?
+        var R2CoGOffsetFloat: Float?
+        var R3WeightFloat: Float?
+        var R3CoGOffsetFloat: Float?
+        
+        //iterates through a while loop to set the variables to inputtable values
+        var iteration = 1
+        while iteration < 4 {
+            if iteration == 1 {
+                 R1WeightFloat = Float(R1Weight.text!)
+                 R1CoGOffsetFloat = Float(R1CoGOffset.text!)
+            }
+            else if iteration == 2 {
+                R2WeightFloat = Float(R2Weight.text!)
+                R2CoGOffsetFloat = Float(R2CoGOffset.text!)
+            }
+            else if iteration == 3 {
+                R3WeightFloat = Float(R3Weight.text!)
+                R3CoGOffsetFloat = Float(R3CoGOffset.text!)
+            }
+            iteration = iteration + 1
+        }
+        
         
         let numerator = (R1WeightFloat!*R1Position) + (R2WeightFloat!*R2Position) + (R3WeightFloat!*R3Position)
         let denominator = (R1WeightFloat!*(generatorSwitchHeight + R1CoGOffsetFloat!)) + (R2WeightFloat!*(generatorSwitchHeight + R2CoGOffsetFloat!)) + (R3WeightFloat!*(generatorSwitchHeight + R3CoGOffsetFloat!)) + (generatorSwitchMass * generatorSwitchCOMHeight)
         angle = atan(-numerator/denominator) * 180 / Float.pi
         AngleLabel.text = "\(angle)"
+        
         if (angle > 8) {
             AngleLabel.textColor = .red
         }
